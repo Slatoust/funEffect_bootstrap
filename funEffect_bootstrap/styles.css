@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display:flex;
+  align-items:center;
+  background-color: #614A45;
+  animation: 10000ms ease-in-out infinite color-change;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: #5A1F12;
+  }
+  20% {
+    background-color: #42221B;
+  }
+  40% {
+    background-color: #231815;
+  }
+  60% {
+    background-color: #3E3634;
+  }
+  80% {
+    background-color: #5C2B21;
+  }
+  100% {
+    background-color: #631909;
+  }
+}
+
+.row {
+	padding: 20px;
+}
+.card {
+	height: 150px;
+	width: 150px;
+	background-color: black ;
+}
